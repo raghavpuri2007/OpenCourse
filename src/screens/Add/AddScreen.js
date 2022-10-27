@@ -9,6 +9,7 @@ import CustomRating from "../../components/CustomRatingBar/CustomRating"
 import Dropdown from "../../components/CustomDropdown/Dropdown";
 import {collection, getDocs, setDoc, deleteField, updateDoc, doc, getDoc } from "firebase/firestore/lite"
 import { useNavigation } from '@react-navigation/native';
+//Add Screen comment test
 const AddScreen = (props) => {
   const [previousProps, setPreviousProps] = useState({})
   const [loaded, setLoaded] = useState(false)
